@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+}
+.h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: rgb(4, 4, 85);
+    font-size: 50px;
+    font-family: sans-serif;
+
+}
+.login-page{
+    width:360px;
+    padding:10% 0 0;
+    margin:auto;
+}
+.form{
+    position:relative;
+    background: #397efd;
+    max-width:360px;
+    margin: 0px auto 100px;
+    padding:45px;
+    text-align: center;
+}
+.form input{
+    outline: 1;
+    background:#f2f2f2;
+    width:100%;
+    border:0px;
+    margin:0 0 15px;
+    padding: 15px;
+    box-sizing:border-box;
+    font-size: 14px;
+}
+.form button{
+    background: #058a38;
+    padding:15px;
+    width:100%;
+    border:0px;
+    color: #ffffff;
+    font-size: 14px;
+
+}
+.form button:hover,.form button:active{
+    background: #43A047;
+}
+.msg{
+    color:#ffffff;
+    font-size:20px;
+    text-decoration: none;
+}
+.msg:hover{
+    color:#f3c5c5;
+}
+.register-form{
+    display:none;
+}
+/************ admin css *********************/
+
+.h1{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.h2{
+    background: brown;
+    color: rgb(226, 226, 202);
+    padding: 15px;
+    margin-left: 350px;
+    margin-top: 150px;
+}
+.h2:hover{
+    color: darksalmon;
+}
+.add1{
+    position:relative;
+    max-width:400px;
+    margin: 0px auto 100px;
+    padding:45px;
+    text-align: center;
+}
+.add input{
+    outline: 1;
+    background:#f2f2f2;
+    width:100%;
+    border:0px;
+    margin:0 0 15px;
+    padding: 15px;
+    box-sizing:border-box;
+    font-size: 14px;
+    border-bottom: coral;
+}
+.add input:hover{
+    background: lemonchiffon;
+}
+.add button{
+    background: #058a38;
+    padding:15px;
+    width:100%;
+    border:0px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.add button:hover,.add button:active{
+    background: #43A047;
+}
